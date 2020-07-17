@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="92786" started-at="2020-07-16T17:00:58Z" finished-at="2020-07-16T17:02:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="92786" started-at="2020-07-16T17:00:58Z" finished-at="2020-07-16T17:02:31Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@b7bfc0]" name="setUp" is-config="true" duration-ms="13297" started-at="2020-07-16T17:02:10Z" finished-at="2020-07-16T17:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@b7bfc0]" name="homePageTitleTest" duration-ms="9" started-at="2020-07-16T17:02:23Z" finished-at="2020-07-16T17:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@b7bfc0]" name="tierDown" is-config="true" duration-ms="585" started-at="2020-07-16T17:02:23Z" finished-at="2020-07-16T17:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="setUp" is-config="true" duration-ms="22705" started-at="2020-07-16T17:00:59Z" finished-at="2020-07-16T17:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="validateSearch" duration-ms="1219" started-at="2020-07-16T17:01:22Z" data-provider="getCrmTestData" finished-at="2020-07-16T17:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="tierDown" is-config="true" duration-ms="1953" started-at="2020-07-16T17:01:23Z" finished-at="2020-07-16T17:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="setUp" is-config="true" duration-ms="20165" started-at="2020-07-16T17:01:25Z" finished-at="2020-07-16T17:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="validateSearch" duration-ms="1534" started-at="2020-07-16T17:01:45Z" data-provider="getCrmTestData" finished-at="2020-07-16T17:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="tierDown" is-config="true" duration-ms="1449" started-at="2020-07-16T17:01:47Z" finished-at="2020-07-16T17:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="setUp" is-config="true" duration-ms="19217" started-at="2020-07-16T17:01:48Z" finished-at="2020-07-16T17:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="validateSearch" duration-ms="1597" started-at="2020-07-16T17:02:07Z" data-provider="getCrmTestData" finished-at="2020-07-16T17:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1b6d4ae]" name="tierDown" is-config="true" duration-ms="736" started-at="2020-07-16T17:02:09Z" finished-at="2020-07-16T17:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6e2eef]" name="setUp" is-config="true" duration-ms="7156" started-at="2020-07-16T17:02:23Z" finished-at="2020-07-16T17:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPagetitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6e2eef]" name="loginPagetitleTest" duration-ms="16" started-at="2020-07-16T17:02:31Z" finished-at="2020-07-16T17:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagetitleTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6e2eef]" name="tierDown" is-config="true" duration-ms="576" started-at="2020-07-16T17:02:31Z" finished-at="2020-07-16T17:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

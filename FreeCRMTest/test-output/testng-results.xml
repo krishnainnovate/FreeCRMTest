@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62490" started-at="2020-07-17T12:50:55Z" finished-at="2020-07-17T12:51:57Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="62490" started-at="2020-07-17T12:50:55Z" finished-at="2020-07-17T12:51:57Z">
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="setUp" is-config="true" duration-ms="17161" started-at="2020-07-17T12:50:55Z" finished-at="2020-07-17T12:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="validateSearch" duration-ms="1242" started-at="2020-07-17T12:51:12Z" data-provider="getCrmTestData" finished-at="2020-07-17T12:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="tierDown" is-config="true" duration-ms="602" started-at="2020-07-17T12:51:13Z" finished-at="2020-07-17T12:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="setUp" is-config="true" duration-ms="16061" started-at="2020-07-17T12:51:14Z" finished-at="2020-07-17T12:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="validateSearch" duration-ms="1221" started-at="2020-07-17T12:51:30Z" data-provider="getCrmTestData" finished-at="2020-07-17T12:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="tierDown" is-config="true" duration-ms="969" started-at="2020-07-17T12:51:31Z" finished-at="2020-07-17T12:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="setUp" is-config="true" duration-ms="14664" started-at="2020-07-17T12:51:32Z" finished-at="2020-07-17T12:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="validateSearch" duration-ms="1230" started-at="2020-07-17T12:51:47Z" data-provider="getCrmTestData" finished-at="2020-07-17T12:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="tierDown" is-config="true" duration-ms="596" started-at="2020-07-17T12:51:48Z" finished-at="2020-07-17T12:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@19963d8]" name="setUp" is-config="true" duration-ms="7540" started-at="2020-07-17T12:51:49Z" finished-at="2020-07-17T12:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPagetitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@19963d8]" name="loginPagetitleTest" duration-ms="59" started-at="2020-07-17T12:51:56Z" finished-at="2020-07-17T12:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagetitleTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@19963d8]" name="tierDown" is-config="true" duration-ms="614" started-at="2020-07-17T12:51:56Z" finished-at="2020-07-17T12:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
