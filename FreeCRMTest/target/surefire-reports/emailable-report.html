@@ -9,14 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">92,786</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">122</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m0">validateSearch</a></td><td rowspan="3">1594918905543</td><td rowspan="3">1534</td></tr><tr class="passedeven"><td><a href="#m1">validateSearch</a></td></tr><tr class="passedeven"><td><a href="#m2">validateSearch</a></td></tr><tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m3">homePageTitleTest</a></td><td rowspan="1">1594918943376</td><td rowspan="1">9</td></tr><tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m4">loginPagetitleTest</a></td><td rowspan="1">1594918951127</td><td rowspan="1">16</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1595005042317</td><td rowspan="1">6</td></tr><tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m1">setUp</a></td><td rowspan="1">1595005042328</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m2">tierDown</a></td><td rowspan="1">1595005042327</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m3">tierDown</a></td><td rowspan="1">1595005042329</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m4">validateSearch</a></td><td rowspan="1">1595005042302</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m5">homePageTitleTest</a></td><td rowspan="1">1595005042327</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m6">loginPagetitleTest</a></td><td rowspan="1">1595005042328</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.crm.qa.testcases.ContactsPageTest#validateSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Amazon</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.crm.qa.testcases.ContactsPageTest#validateSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Google</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.crm.qa.testcases.ContactsPageTest#validateSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>facebook</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.crm.qa.testcases.HomePageTest#homePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.crm.qa.testcases.LoginPageTest#loginPagetitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">com.crm.qa.testcases.HomePageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:49)
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:34)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:49)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:29)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.qa.testcases.HomePageTest#tierDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.qa.testcases.LoginPageTest#tierDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.qa.testcases.ContactsPageTest#validateSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:65)
+	at com.crm.qa.utility.TestUtil.getTestData(TestUtil.java:46)
+	at com.crm.qa.testcases.ContactsPageTest.getCrmTestData(ContactsPageTest.java:61)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.qa.testcases.HomePageTest#homePageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:49)
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:34)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.crm.qa.testcases.LoginPageTest#loginPagetitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:49)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:29)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
