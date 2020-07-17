@@ -29,8 +29,9 @@ public class TestUtil extends TestBase {
 		//driver.switchTo().frame("leftpanel");
 	}
 
-	public static String TESTDATA_SHEET_PATH = "C://Selenium//FreeCRMTest//src//main//java//com//crm//qa//testdata//Contacts.xlsx";
+	//public static String TESTDATA_SHEET_PATH = "C://Selenium//FreeCRMTest//src//main//java//com//crm//qa//testdata//Contacts.xlsx";
 
+	public static String TESTDATA_SHEET_PATH = "C:/Users/Krishnakumar/git/FreeCRMTest/FreeCRMTest/src/main/java/com/crm/qa/testdata/Contacts.xlsx";
 	static Workbook book;
 	static Sheet sheet;
 	static JavascriptExecutor js;

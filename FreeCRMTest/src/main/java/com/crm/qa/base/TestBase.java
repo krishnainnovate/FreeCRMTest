@@ -32,7 +32,9 @@ public class TestBase {
 		try{
 			
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:/Selenium/FreeCRMTest/src/main/java/com/crm/qa/configuration/config.properties");
+			//FileInputStream ip = new FileInputStream("C:/Selenium/FreeCRMTest/src/main/java/com/crm/qa/configuration/config.properties");
+			
+			FileInputStream ip = new FileInputStream("C:/Users/Krishnakumar/git/FreeCRMTest/FreeCRMTest/src/main/java/com/crm/qa/configuration/config.properties");
 			prop.load(ip);
 			
 		}catch(FileNotFoundException e){
@@ -48,12 +50,12 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			
-			System.setProperty("webdriver.chrome.driver", "C:/Selenium/FreeCRMTest/drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:/Users/Krishnakumar/git/FreeCRMTest/FreeCRMTest/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equals("firefox")){
 			
-			System.setProperty("webdriver.chrome.driver", "C:/Selenium/FreeCRMTest/drivers/geckodriver.exe");
+			System.setProperty("webdriver.firefox.driver", "C:/Users/Krishnakumar/git/FreeCRMTest/FreeCRMTest/drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 	}
 		

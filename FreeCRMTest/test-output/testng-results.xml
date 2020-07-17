@@ -1,17 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="62490" started-at="2020-07-17T12:50:55Z" finished-at="2020-07-17T12:51:57Z">
+  <suite name="Suite" duration-ms="186976" started-at="2020-07-17T17:43:13Z" finished-at="2020-07-17T17:46:20Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="62490" started-at="2020-07-17T12:50:55Z" finished-at="2020-07-17T12:51:57Z">
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="setUp" is-config="true" duration-ms="17161" started-at="2020-07-17T12:50:55Z" finished-at="2020-07-17T12:51:12Z">
+    <test name="Free CRM App Test Cases" duration-ms="186976" started-at="2020-07-17T17:43:13Z" finished-at="2020-07-17T17:46:20Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="setUp" is-config="true" duration-ms="14322" started-at="2020-07-17T23:14:38Z" finished-at="2020-07-17T23:14:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="validateSearch" duration-ms="1242" started-at="2020-07-17T12:51:12Z" data-provider="getCrmTestData" finished-at="2020-07-17T12:51:13Z">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="homePageTitleTest" duration-ms="8" started-at="2020-07-17T23:14:52Z" finished-at="2020-07-17T23:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="tierDown" is-config="true" duration-ms="591" started-at="2020-07-17T23:14:52Z" finished-at="2020-07-17T23:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="setUp" is-config="true" duration-ms="14237" started-at="2020-07-17T23:15:02Z" finished-at="2020-07-17T23:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="verifyUserNameTest" duration-ms="86" started-at="2020-07-17T23:15:16Z" finished-at="2020-07-17T23:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="tierDown" is-config="true" duration-ms="584" started-at="2020-07-17T23:15:16Z" finished-at="2020-07-17T23:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="setUp" is-config="true" duration-ms="13955" started-at="2020-07-17T23:15:31Z" finished-at="2020-07-17T23:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="verifyContactsPageLinkTest" duration-ms="1449" started-at="2020-07-17T23:15:45Z" finished-at="2020-07-17T23:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLinkTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="tierDown" is-config="true" duration-ms="585" started-at="2020-07-17T23:15:46Z" finished-at="2020-07-17T23:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="setUp" is-config="true" duration-ms="15166" started-at="2020-07-17T23:15:47Z" finished-at="2020-07-17T23:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDealsPageLinkTest()[pri:4, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="verifyDealsPageLinkTest" duration-ms="1339" started-at="2020-07-17T23:16:02Z" finished-at="2020-07-17T23:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsPageLinkTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="tierDown" is-config="true" duration-ms="588" started-at="2020-07-17T23:16:03Z" finished-at="2020-07-17T23:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="setUp" is-config="true" duration-ms="14244" started-at="2020-07-17T23:16:04Z" finished-at="2020-07-17T23:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VeriryTasksPageLinkTest()[pri:5, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="VeriryTasksPageLinkTest" duration-ms="1110" started-at="2020-07-17T23:16:18Z" finished-at="2020-07-17T23:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriryTasksPageLinkTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3a8624]" name="tierDown" is-config="true" duration-ms="597" started-at="2020-07-17T23:16:19Z" finished-at="2020-07-17T23:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="setUp" is-config="true" duration-ms="36816" started-at="2020-07-17T23:13:13Z" finished-at="2020-07-17T23:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="validateSearch" duration-ms="1301" started-at="2020-07-17T23:13:50Z" data-provider="getCrmTestData" finished-at="2020-07-17T23:13:52Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +84,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="tierDown" is-config="true" duration-ms="602" started-at="2020-07-17T12:51:13Z" finished-at="2020-07-17T12:51:14Z">
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="tierDown" is-config="true" duration-ms="632" started-at="2020-07-17T23:13:52Z" finished-at="2020-07-17T23:13:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="setUp" is-config="true" duration-ms="16061" started-at="2020-07-17T12:51:14Z" finished-at="2020-07-17T12:51:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="setUp" is-config="true" duration-ms="16981" started-at="2020-07-17T23:13:52Z" finished-at="2020-07-17T23:14:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="validateSearch" duration-ms="1221" started-at="2020-07-17T12:51:30Z" data-provider="getCrmTestData" finished-at="2020-07-17T12:51:31Z">
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="validateSearch" duration-ms="2116" started-at="2020-07-17T23:14:09Z" data-provider="getCrmTestData" finished-at="2020-07-17T23:14:11Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="tierDown" is-config="true" duration-ms="969" started-at="2020-07-17T12:51:31Z" finished-at="2020-07-17T12:51:32Z">
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="tierDown" is-config="true" duration-ms="624" started-at="2020-07-17T23:14:11Z" finished-at="2020-07-17T23:14:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="setUp" is-config="true" duration-ms="14664" started-at="2020-07-17T12:51:32Z" finished-at="2020-07-17T12:51:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="setUp" is-config="true" duration-ms="15627" started-at="2020-07-17T23:14:12Z" finished-at="2020-07-17T23:14:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="validateSearch" duration-ms="1230" started-at="2020-07-17T12:51:47Z" data-provider="getCrmTestData" finished-at="2020-07-17T12:51:48Z">
+        <test-method status="PASS" signature="validateSearch(java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="validateSearch" duration-ms="1250" started-at="2020-07-17T23:14:28Z" data-provider="getCrmTestData" finished-at="2020-07-17T23:14:29Z">
           <params>
             <param index="0">
               <value>
@@ -60,21 +122,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@1fffcd7]" name="tierDown" is-config="true" duration-ms="596" started-at="2020-07-17T12:51:48Z" finished-at="2020-07-17T12:51:49Z">
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@3bd550]" name="tierDown" is-config="true" duration-ms="596" started-at="2020-07-17T23:14:29Z" finished-at="2020-07-17T23:14:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierDown -->
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@19963d8]" name="setUp" is-config="true" duration-ms="7540" started-at="2020-07-17T12:51:49Z" finished-at="2020-07-17T12:51:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="setUp" is-config="true" duration-ms="7475" started-at="2020-07-17T23:14:29Z" finished-at="2020-07-17T23:14:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPagetitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@19963d8]" name="loginPagetitleTest" duration-ms="59" started-at="2020-07-17T12:51:56Z" finished-at="2020-07-17T12:51:56Z">
+        <test-method status="PASS" signature="loginPagetitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="loginPagetitleTest" duration-ms="22" started-at="2020-07-17T23:14:37Z" finished-at="2020-07-17T23:14:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPagetitleTest -->
-        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@19963d8]" name="tierDown" is-config="true" duration-ms="614" started-at="2020-07-17T12:51:56Z" finished-at="2020-07-17T12:51:57Z">
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="tierDown" is-config="true" duration-ms="673" started-at="2020-07-17T23:14:37Z" finished-at="2020-07-17T23:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="setUp" is-config="true" duration-ms="7558" started-at="2020-07-17T23:14:52Z" finished-at="2020-07-17T23:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crmLOGOImgTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="crmLOGOImgTest" duration-ms="134" started-at="2020-07-17T23:15:00Z" finished-at="2020-07-17T23:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLOGOImgTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="tierDown" is-config="true" duration-ms="1435" started-at="2020-07-17T23:15:00Z" finished-at="2020-07-17T23:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="setUp" is-config="true" duration-ms="7508" started-at="2020-07-17T23:15:17Z" finished-at="2020-07-17T23:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="loginTest" duration-ms="6079" started-at="2020-07-17T23:15:24Z" finished-at="2020-07-17T23:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tierDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1ce4f0a]" name="tierDown" is-config="true" duration-ms="610" started-at="2020-07-17T23:15:30Z" finished-at="2020-07-17T23:15:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierDown -->
