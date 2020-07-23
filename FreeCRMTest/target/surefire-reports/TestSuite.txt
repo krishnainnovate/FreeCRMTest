@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 1.239 sec <<< FAILURE!
-setUp(com.crm.qa.testcases.HomePageTest)  Time elapsed: 0.879 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.crm.qa.base.TestBase.initialization(TestBase.java:49)
-	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:34)
-
-setUp(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 0.881 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.crm.qa.base.TestBase.initialization(TestBase.java:49)
-	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:29)
-
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 162.447 sec
